@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Atm-Crm-Stat-Ui project",
+      "imageSrc": "projects/project.png",
+      "description": "Commercial Bank Project(Intern Project).",
+      "description2":"Contributed to a web-based software project for managing commercial bank customer card details. Specialized in developing crucial frontend components, ensuring a user-friendly interface. Proficient in translating design concepts into responsive solutions.",
+      "skills": ["Angular"]
+      
+    },
+    {
+      "title": "E-Slip project",
+      "imageSrc": "projects/project.png",
+      "description": "Commercial Bank Project(Intern Project)",
+      "description2": "Contributed to backend development for the E Slip project, specializing in API development. Designed and implemented robust solutions, ensuring seamless functionality and efficient data management",
+      "skills": ["Spring Boot"]
+      
+    },
+    {
+      "title": "Fleet Management System",
+      "imageSrc": "projects/fleet.png",
+      "description": "Second-Year Software Project(Group Project)",
+      "description2": "A web-based software system built for construction sites to organize, manage, and coordinate the vehicles from the central information system to the desired location. In this project, I’m responsible for developing the backend and frontend parts in the Reports Module and Configuration Module and the frontend part of the Allocated Vehicle page in the dashboard module.",
+      "skills": ["React", "MYSQL", "NodeJS","PHP"]
+     
+    }
+  ]
+  

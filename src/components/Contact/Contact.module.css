@@ -1,0 +1,87 @@
+@import "../../vars.css";
+
+.container{
+  
+  margin-top: 120px;
+  background-color: var(--color-dark);
+  margin-bottom: auto;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+  
+  
+ 
+}
+.legend {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.label{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+ 
+
+.btn{
+            cursor: pointer;
+            border: 1px solid #3498db;
+            background-color: rgba(24, 100, 171, 0.1);
+            height: 40px;
+            width: 150px;
+            color: #3498db;
+            font-size: 1em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            align-items: center;
+            
+}
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+ 
+  
+}
+
+.btn:hover{
+            background-color: rgba(20, 129, 232, 0.2);
+            color: #fff;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+form {
+  max-width: 500px;
+  margin: 150px auto;
+  
+}
+
+fieldset {
+  padding: 30px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+}
+@media screen and (max-width: 830px){
+  .container{
+      flex-direction: column;
+      gap: 23px;
+  }
+  .text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .links{
+      align-items: center;
+  }
+   
+}
+

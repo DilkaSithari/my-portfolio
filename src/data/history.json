@@ -1,0 +1,25 @@
+[
+    {
+        "role": "Software Engineer Intern",
+        "organization": "Commercial Bank IT, R & D",
+        "start_date": "2022 December",
+        "end_date": "2023 June",
+        "experience": ["Worked on Eslip project and Atm-Crm-Stat-ui project"],
+        "imageSrc": "history/commercial_bank.png"
+    },
+    {
+        "role": "Trainee",
+        "organization": "People's Bank",
+        "start_date": "2019 Jan",
+        "end_date": "2020 Jan",
+        "experience": ["Worked as a trainee at People's Bank Okkamptiya Branch"],
+        "imageSrc": "history/peoples_bank.jpeg"
+    }
+    
+   
+    
+   
+    
+    
+    
+]

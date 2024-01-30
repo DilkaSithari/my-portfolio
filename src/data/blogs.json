@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Comprehensive Introduction to Cloud Computing",
+      "imageSrc": "blogs/blog1.webp",
+      "description": "",
+      "description2":"In the digital era, cloud computing has emerged as a fundamental technology, enabling users to access and utilize computing services over the internet. This shift eliminates the need for local servers or personal devices, streamlining resource management.  ",
+      "skills": ["Medium"]
+      
+    },
+    {
+      "title": "Learn Java from the Beginning",
+      "imageSrc": "blogs/blog2.webp",
+      "description": "",
+      "description2": "Java is a high-level programming language known for its versatility and ease of use. It is free and open-source, allowing users to start working with it once installed. One of its key strengths is cross-platform compatibility, meaning Java can run on various operating systems like Windows, Mac, or Linux, making it highly accessible. ",
+      "skills": ["Medium"]
+      
+    },
+    {
+      "title": "Applications of JavaScript Math Object",
+      "imageSrc": "blogs/blog3.webp",
+      "description": "",
+      "description2": "In the realm of JavaScript, mathematical operations are made powerful and efficient through the utilization of various math objects. This article delves into a selection of these essential math objects, highlighting their significance in performing mathematical computations. ",
+      "skills": ["Medium"]
+     
+    },
+    {
+        "title": "Windows Keyboard Shortcut Keys",
+        "imageSrc": "blogs/blog4.webp",
+        "description": "",
+        "description2": "In the vast landscape of Windows functionality, keyboard shortcuts stand out as efficient tools for streamlining computing tasks. This article introduces a selection of essential keyboard shortcuts, offering a glimpse into their potential to enhance productivity. ",
+        "skills": ["Medium"]
+       
+      }
+  ]
+  
