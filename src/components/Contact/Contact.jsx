@@ -4,6 +4,7 @@ import styles from "./Contact.module.css";
 export const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
+    
 
     const formData = {
       name: event.target.name.value,
@@ -12,12 +13,13 @@ export const Contact = () => {
     };
 
     console.log("Form Data:", formData);
+    event.target.reset();
   };
 
   return (
     <footer id="contact" className={styles.container}>
     <h2 className={styles.title}>Contact</h2>
-      <form action="https://api.web3forms.com/submit" method="POST" id="form">
+      <form action="https://api.web3forms.com/submit" method="POST" id="form" >
         <fieldset>
           <legend className={styles.legend}>Contact Form</legend>
           <input type="hidden" name="access_key" value="6aa9e52a-bbec-4edd-a2f3-6775bd8259d5" />
@@ -40,7 +42,7 @@ export const Contact = () => {
             <label className={styles.label} htmlFor="message">Your Message</label><br />
             <textarea rows="5" name="message" id="message" placeholder="" required></textarea><br /><br />
           </div>
-          <button className={styles.btn} type="submit">Send Message</button>
+          <button onSubmit={handleSubmit}  className={styles.btn} type="submit">Send Message</button>
         </fieldset>
       </form>
     </footer>

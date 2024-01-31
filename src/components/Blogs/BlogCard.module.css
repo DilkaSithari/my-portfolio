@@ -1,26 +1,35 @@
 @import "../../vars.css";
 
-.container{
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%,  #132a53);
-    box-shadow: 0 16px 14px 0 #04152d;
-    padding: 18px 24px; 
-    max-width: 345px;
-    margin-top: 5px;
-    margin-bottom: auto;
-
-    height: 550px;
-    width: 300px;
-    border: 1px dashed black;
-    margin: 0 auto;
-    transition: height 2s, width 2s, background 2s;
-}
-.container:hover {
-    height: 600px;
-    width: 345px;
-    background: #4d3762;
+.container {
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   background: linear-gradient(180deg, #576cbc 0%, #132a53);
+   box-shadow: 0 16px 14px 0 #04152d;
+   padding: 18px 24px;
+   /* max-width: 345px; */
+   margin-top: 5px;
+   margin-bottom: auto;
+ 
+   height: 480px;
+   width: 300px;
+   
+   margin: 0 auto;
+   cursor: pointer;
+   color: white;
+   text-align: auto;
+   transition-duration: 5s;
+   -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+ }
+ 
+ .container:hover {
+   background: #402b70; 
+    border-radius: 30px; 
+    transform: scale(1.1);
  }
 .image{
    margin-bottom: 26px;

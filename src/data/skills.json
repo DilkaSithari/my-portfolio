@@ -1,5 +1,26 @@
 [
     {
+        "title":"Java",
+        "imageSrc": "skills/java.svg"
+    },
+    {
+        "title":"Python",
+        "imageSrc": "skills/python.png"
+    },
+    {
+        "title":"C",
+        "imageSrc": "skills/c.png"
+    },
+    
+    {
+        "title": "PHP",
+        "imageSrc": "skills/php.png"
+    },
+    {
+        "title": "Bootsrap",
+        "imageSrc": "skills/boostrap.png"
+    },
+    {
         "title":"HTML",
         "imageSrc": "skills/html.png"
     },
@@ -26,5 +47,16 @@
     {
         "title":"Figma",
         "imageSrc": "skills/figma.png"
+    },
+    {
+        "title": "MySQL",
+        "imageSrc": "skills/mysql.png"
+
+    },
+    {
+        "title":"Git",
+        "imageSrc": "skills/git.png"
     }
+   
+
 ]
