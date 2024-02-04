@@ -10,22 +10,14 @@ export const Experience = () => {
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.columnContainer}>
-        <div className={styles.card}>
-          
-              
+        <div className={styles.card}>          
                 <div className={styles.cardContainer}>
-
-
-
                   <ul className={styles.history}>
                     {history.map((historyItem, id) => {
                       return (
                         <li key={id} className={styles.historyItem}>
 
-                          <div className={styles.historyItemDetails}>
-                          
-            
-                           
+                          <div className={styles.historyItemDetails}>               
                               <h3 className={styles.historyItem}>
                                 <img
                                   src={getImageUrl(historyItem.imageSrc)}
@@ -65,9 +57,10 @@ export const Experience = () => {
         <div className={styles.card}>
           <div className={styles.cardContainer}>
 
-
+          <h1 className={styles.skillHeading}>Skills</h1>
 
             <div className={styles.skills}>
+              
               {skills.map((skill, id) => {
                 return (
                   <div key={id} className={styles.skill}>

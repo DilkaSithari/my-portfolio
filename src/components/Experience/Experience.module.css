@@ -1,54 +1,62 @@
 @import "../../vars.css";
 
-.container{
+.container {
     color: var(--color-text);
     margin-top: 79px;
     margin-left: 10%;
     margin-right: 10%;
 }
-.title{
+
+.title {
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  .columnContainer {
+}
+
+.columnContainer {
     display: flex;
-  }
-  
-  .cardContainer {
+    flex-direction: column; /* Adjusted for mobile layout */
+}
+
+.cardContainer {
     padding: 2px 16px;
-  }
-  .content{
+}
+
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 14px;
 }
-.skills{
+
+.skills {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
 }
-.skill{
+
+.skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 11px;
 }
-.skillImageContainer{
+
+.skillImageContainer {
     background-color: var(--color-secondary);
     border-radius: 100%;
     display: flex;
@@ -57,7 +65,6 @@
     width: 70px;
     height: 70px;
     margin-bottom: 5px;
-
 }
 
 .skillImageContainer:hover {
@@ -68,125 +75,110 @@
     transform: rotate(20deg);
     -webkit-transform: rotate(20deg);
 }
-.skillImageContainer img{
+
+.skillImageContainer img {
     width: 40px;
 }
-.skill p{
+
+.skill p {
     font-size: 20px;
     font-weight: 500;
     font-family: var(--font-roboto);
 }
-.skill p:hover{
+
+.skill p:hover {
     text-shadow: 5px 5px 8px #92dae2;
 }
-.history{
+
+.history {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-   
-}
-.historyItem{
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 17px;
+    gap: 40px;
+    font-size: 10px;
+}
+
+.historyItem {
+    display: flex;
+    flex-direction: column; /* Adjusted for mobile layout */
     background: #19376d;
     background: linear-gradient(90deg,#19376d 0%, rgba(25,55,109,0) 100%);
     padding: 24px;
     margin-bottom: 10px;
     border-radius: 10px;
+    box-shadow: 0 16px 14px 0 #04152d;
+    
 }
-.historyItem img{
+
+.historyItem img {
     width: 50px;
 }
 
 .historyItemImage {
     margin-right: 10px;
-  }
-.historyItemDetails{
-    font-family: var(--font-roboto);
+    border-radius: 100%;
 }
-.historyItemDetails h3{
-    font-size: 30px;
+
+.historyItemDetails {
+    font-family: var(--font-roboto);
+    font-size: 10px;
+}
+
+.historyItemDetails h3 {
+    font-size: 20px;
     font-weight: 500;
 }
-.historyItemDetails p{
-    font-size: 20px;
+
+.historyItemDetails p {
+    font-size: 15px;
     font-weight: 300;
 }
-.historyItemDetails ul{
+
+.historyItemDetails ul {
     margin-top: 6px;
     list-style-position: inside;
-    font-size: 20px;
+    font-size: 15px;
     list-style-type: disc;
     margin-left: 17px;
 }
-.experience{
+
+.experience {
     list-style-type: none;
-
 }
-.flipCard {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    /* perspective: 1000px; */
-  }
-  
-  .flipCardInner {
-    position: relative;
-    width: 100%;
-    height: 100%;
+.skillHeading{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 50px;
     text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .flipCard:hover .flipCardInner {
-    transform: rotateY(180deg);
-  }
-  
-  .flipCardFront, .flipCardBack {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flipCardFront {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flipCardBack {
-    background-color: #2980b9;
-    color: white;
-    transform: rotateY(180deg);
-  }
+}
 
-
-  @media screen and (max-width: 830px) {
+/* Add media query for screens with max-width 830px */
+@media screen and (max-width: 830px) {
     .card {
         width: 100%;
-      }
-      .cardContainer {
+    }
+    
+    .cardContainer {
         padding: 2px 16px;
-      }
-      .content{
+    }
+
+    .content {
         flex-direction: column;
         align-items: center;
         gap: 34px;
     }
-    .skills{
+
+    .skills {
         width: 100%;
         flex-direction: row;
         justify-content: center;
     }
-    .history{
+
+    .history {
         width: 100%;
         gap: 9px;
     }
-    
 }
