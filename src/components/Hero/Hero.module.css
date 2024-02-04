@@ -49,7 +49,7 @@ background-clip: text;
 .heroImg {
   width: 40%;
   z-index: 1;
-  border-radius: 50%;
+  border-radius: 100%;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -72,6 +72,7 @@ background-clip: text;
 
   /* prefix for Safari and Chrome */
   -webkit-transform: translate(10px, 10px);
+  border-radius: 50%;
 }
 
 .iconImg {
